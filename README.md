@@ -1,1 +1,1 @@
-# Basic HTML Template - HTML5, CSS3, Flexbox Layout.
+### Basic HTML Template - HTML5, CSS3, Flexbox Layout, Responsive
