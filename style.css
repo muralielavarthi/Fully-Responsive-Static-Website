@@ -1,0 +1,129 @@
+/* Universal Styles */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Navigation Bar Styles */
+.nav-container {
+  background-color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-left: 5em;
+}
+.navbar-buttons {
+  margin-right: 5em;
+}
+.site-heading {
+  padding: 1em;
+  font-size: 1.5em;
+}
+.site-heading-link {
+  text-decoration: none;
+  color: white;
+}
+.site-heading-link:hover {
+  text-decoration: underline;
+}
+.button-style {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  margin: 1em;
+  min-height: 50px;
+  padding: 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+.button-style:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Search Bar Section Styles */
+.search-box-container {
+  background-color: #dadbf1;
+  min-height: 200px;
+  max-width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.search-box-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: 100px;
+}
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+.sb {
+  min-height: 60px;
+  width: 700px;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+/* Image Cards Styles */
+.cards-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    flex-wrap: wrap;
+    
+}
+.img-cards{
+    display: flex;
+    width: 40%;
+}
+.card-img{
+    max-width: 120px;
+    max-height: 120px;
+    padding: 1em;
+}
+.card-text{
+    padding: 1em;
+    line-height: 30px;
+}
+.card-link{
+    text-decoration: none;
+    color: #4C5FD5;
+}
+.card-link:hover{
+    text-decoration: underline;
+}
+/* Footer Styles */
+.footer-container {
+  background-color: black;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.ft-col {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  justify-content: space-evenly;
+}
+.ft-col h2 {
+  color: white;
+  padding-bottom: 0.5em;
+  font-size: 1.5em;
+}
+.fl {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+.fl:hover {
+  text-decoration: underline;
+}
