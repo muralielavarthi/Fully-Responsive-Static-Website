@@ -1,1 +1,1 @@
-### HTML5, CSS3, Flexbox Layout, Fully Responsive.
+### HTML5, CSS3, Flexbox, Responsive.
