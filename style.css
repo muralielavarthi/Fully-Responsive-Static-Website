@@ -150,6 +150,7 @@ body {
   right: 25px;
   bottom: 25px;
 }
+/* Media Styles */
 
 @media screen and (max-width: 900px) {
   .img-cards {
@@ -187,6 +188,9 @@ body {
   }
   .search-box-heading{
     font-size: 15px;
+  }
+  .footer-container{
+    padding-bottom: unset;
   }
 }
 
